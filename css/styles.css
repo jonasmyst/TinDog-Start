@@ -19,6 +19,13 @@ h1 {
   margin-top: 3rem;
 }
 
+h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-shadow: 1px 1px gray;
+}
+
 h3 {
   font-weight: 900;
   font-size: 1.3rem;
@@ -28,13 +35,10 @@ p {
   color: #8f8f8f;
 }
 
-.navbar {
-  margin-bottom: 1rem;
-}
-
 /* Navigation Bar */
 
 .navbar {
+  margin-bottom: 1rem;
   padding-bottom: 4.5rem;
 }
 
@@ -92,4 +96,39 @@ p {
 
 .feat-icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 5% 10%;
 }
